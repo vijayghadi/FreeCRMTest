@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 147.702 s <<< FAILURE! - in TestSuite
+createConatctsTest(com.crm.qa.testcases.ContactsPageTest)  Time elapsed: 20.387 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: *[name='first_name']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'VIJAY', ip: '192.168.1.32', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e55a76b9-cf75-4bb7-9960-ff7a1dd29050, findElement {using=name, value=first_name}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:debuggerAddress: localhost:50925, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 3172, moz:profile: C:\Windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:50925/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e55a76b9-cf75-4bb7-9960-ff7a1dd29050
+	at com.crm.qa.testcases.ContactsPageTest.createConatctsTest(ContactsPageTest.java:44)
+
+createConatctsTest(com.crm.qa.testcases.ContactsPageTest)  Time elapsed: 20.352 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: *[name='first_name']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'VIJAY', ip: '192.168.1.32', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [eb0f52ba-b1ff-436c-8e1c-5b4cfce10557, findElement {using=name, value=first_name}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:debuggerAddress: localhost:59188, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 24540, moz:profile: C:\Windows\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:59188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eb0f52ba-b1ff-436c-8e1c-5b4cfce10557
+	at com.crm.qa.testcases.ContactsPageTest.createConatctsTest(ContactsPageTest.java:44)
+
